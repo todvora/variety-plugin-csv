@@ -1,0 +1,21 @@
+{
+  "name": "variety-plugin-csv",
+  "version": "0.0.0",
+  "description": "Variety plugin formatting analysis results to CSV",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint index.js",
+    "pretest": "npm run lint",
+    "test": "jasmine-node spec --verbose --captureExceptions"
+  },
+  "devDependencies": {
+    "jasmine-node": "*",
+    "jshint": "*"
+  },
+  "keywords": [
+    "variety",
+    "plugin"
+  ],
+  "author": "Tomas Dvorak <todvora@gmail.com>",
+  "license": "MIT"
+}
