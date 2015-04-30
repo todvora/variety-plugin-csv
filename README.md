@@ -25,7 +25,7 @@ mongo test --eval "var collection = 'users'; var plugins='index.js';" variety.js
 ## Delimiter param
 The default CSV delimiter is configured to the ```|``` character. If you want to use another one, adjust the plugin configuration:
 ```
-mongo test --eval "var collection = 'users'; var plugins='index.js|delimiter='\t';" variety.js
+mongo test --eval "var collection = 'users'; var plugins='index.js|delimiter=\t';" variety.js
 ```
 This will output results delimited by ```\t``` (tab) character.
 
