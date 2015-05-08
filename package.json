@@ -13,8 +13,9 @@
     "jshint": "*"
   },
   "keywords": [
+    "variety-plugin",
     "variety",
-    "plugin"
+    "csv"
   ],
   "author": "Tomas Dvorak <todvora@gmail.com>",
   "license": "MIT"
