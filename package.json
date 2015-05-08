@@ -1,6 +1,6 @@
 {
   "name": "variety-plugin-csv",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Variety plugin formatting analysis results to CSV",
   "main": "index.js",
   "scripts": {
